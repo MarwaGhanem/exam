@@ -1,0 +1,124 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body>
+<div class="sideBar d-flex">
+    <div class="nav p-3">
+        <nav class="nav flex-column mb-3">
+            <a class="nav-link active" aria-current="page" href="#">Now playing</a>
+            <a class="nav-link" href="#">Popular</a>
+            <a class="nav-link" href="#">Top Rated</a>
+            <a class="nav-link" href="#">Trending</a>
+            <a class="nav-link" href="#">Upcoming</a>
+            <a class="nav-link" href="#Contact Us">Contact Us</a>
+            <div class="navIcon mt-5">
+                <i class="fa-brands fa-facebook-f mt-5"></i>
+                <i class="fa-brands fa-twitter mt-5"></i>
+                <i class="fa-solid fa-globe mt-5"></i>
+      
+              
+              </div>
+              <p class="mt-5">Copyright Â© 2019 All Rights Reserved.</p>
+          </nav>
+      
+    </div>
+    <div class="sideIcon d-flex flex-column text-center p-3 ">
+        <img src="imags/logo.png" alt=""/>
+        <i  id="bars" class="fa-solid fa-bars "></i>
+            <i id="closedbtn" class="fa-solid fa-xmark"></i>
+        <div class="endIcon d-flex flex-column">
+        <i class="fa-solid fa-share-nodes mb-3"></i>
+        <i class="fa-solid fa-globe "></i>
+
+    </div>
+    </div>
+</div>
+
+<section class="search p-4 bg-dark">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="serWord">
+                    <input id="searchApi" class="form-control btn-outline-dark" placeholder="get movie by word..."/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="serWord">
+                    <input  id="searchWord" class="form-control btn-outline-dark" placeholder="search..."/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="movie bg-dark">
+    <div class="container">
+        <div id="rowData" class="row g-4 " >
+          
+        </div>
+    </div>
+
+</section>
+<section id="Contact Us" class="bg-dark py-5">
+     <div class="container">
+          <h2 class="mb-4">Contact Us...</h2>
+
+          <div class="row g-4">
+               <div class="col-md-6 mb-4">
+                   <div class="formInput">
+                         <input  id="nameInput" class="form-control" type="text" placeholder="Enter your name">
+                         <p id="nameError" class="d-none">Your name is not valid</p>
+                    </div>
+               </div>
+               <div class="col-md-6 mb-4">
+                    <div class="formInput">
+                          <input id="emailInput" class="form-control" type="email" placeholder="Enter your email">
+                          <p class="d-none" id="emailError">Your email is not valid</p>
+                     </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="formInput">
+                          <input id="phoneInput" class="form-control" type="text" placeholder="Enter your phone ">
+                          <p id="phoneError" class="d-none">Enter valid phone</p>
+                     </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="formInput">
+                          <input id="ageInput" class="form-control" type="number" placeholder="Enter your age">
+                          <p class="d-none" id="ageError">Enter valid age</p>
+                     </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="formInput">
+                          <input id="passInput" class="form-control" type="password" placeholder="Enter your password">
+                          <p class="d-none" id="passError">entre valid password *Minimum eight characters,
+                               at least one letter and one number:*</p>
+                     </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="formInput">
+                          <input id="RepassInput" class="form-control" type="password" placeholder="Enter your repassword">
+                          <p class="d-none" id="repassError">Enter valid repassword/p>
+                     </div>
+                </div>
+
+                
+          </div>
+          <button class="btn-danger p-2" id="sumbitBtn" >sumbit</button>
+     </div>
+
+
+
+</section>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main .js"></script>
+</body>
+</html>

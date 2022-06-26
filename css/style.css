@@ -1,0 +1,84 @@
+.sideBar{
+     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999; 
+     
+}
+.sideIcon{
+    background-color: white;
+    width: 75px;;
+}
+.nav{
+     background-color: #000; 
+    color: white;
+    padding: 10px;
+}
+.nav a{
+    color: white !important;
+    margin-bottom: 5px !important;
+    transition: all 1s;
+    font-size: 20px;
+}
+.nav a:hover{
+   color: red !important;
+}
+.navIcon i{
+    padding: 5px;
+    transition: all 1s;
+}
+.navIcon i:hover{
+    color: red !important; 
+}
+.nav p{
+    max-width: 200px;
+}
+#bars  {
+    padding-top: 200px !important;
+    font-size: 28px;
+    display: none;
+}
+#closedbtn{
+    padding-top: 200px !important;
+    font-size: 28px;
+   
+}
+
+.endIcon {
+    font-size: 24px;
+    padding-top: 200px !important;
+}
+::placeholder
+{
+	font-weight: 400;
+	font-size: 17px;
+	text-align: center;
+
+}
+.imageLayer{
+    background-color: rgba(255,255,255,.7);
+    padding-top: 20px !important;
+   opacity: 0;
+   overflow: hidden;
+
+}
+.imageLayer h2{
+    padding: 10px !important;
+    font-size: 24px;
+}
+.imageLayer p{
+    font-size: 20px;
+}
+.movieImage {
+transition: all 1s linear !important;
+}
+ .movieImage:hover .imageLayer{
+   opacity: 1;
+
+} 
+
+.formInput p{
+    background-color: white;
+    color: #000;
+    margin-top: 4px;
+}
